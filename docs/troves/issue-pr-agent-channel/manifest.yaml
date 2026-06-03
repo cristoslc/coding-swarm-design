@@ -105,6 +105,6 @@ history:
     sources: 5
   - event: extended
     date: 2026-06-03
-    commit: "--"
+    commit: "936ae77"
     sources: 3
     note: "Added counterevidence: CodeRabbit quality study, maintainer rejection policies, infrastructure scaling analysis"
