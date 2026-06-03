@@ -58,20 +58,53 @@ sources:
     publisher: "O'Reilly Radar"
     fetched: 2026-06-03
     freshness-ttl: 365d
+    category: proponent
+
+  - id: coderabbit-ai-code-1-dot-7x-more-issues
+    title: "State of AI vs Human Code Generation Report — AI co-authored PRs contain 1.7x more issues"
+    url: https://www.coderabbit.ai/blog/state-of-ai-vs-human-code-generation-report
+    author: "David Loker (CodeRabbit)"
+    type: blog-post
+    publisher: "CodeRabbit"
+    fetched: 2026-06-03
+    freshness-ttl: 365d
+    category: counterevidence
+
+  - id: pickuma-maintainers-rejecting-ai-prs
+    title: "Why Open Source Maintainers Are Rejecting AI-Generated Pull Requests"
+    url: https://pickuma.com/posts/open-source-maintainers-rejecting-ai-pull-requests/
+    author: "Owen (Pickuma)"
+    type: blog-post
+    publisher: "Pickuma"
+    fetched: 2026-06-03
+    freshness-ttl: 180d
+    category: counterevidence
+
+  - id: zenvanriel-github-infrastructure-buckle
+    title: "GitHub Infrastructure Buckles Under AI Agent Commits"
+    url: https://zenvanriel.com/ai-engineer-blog/github-ai-agent-commits-infrastructure-crisis/
+    author: "Zen van Riel"
+    type: blog-post
+    publisher: "Zen van Riel"
+    fetched: 2026-06-03
+    freshness-ttl: 180d
+    category: counterevidence
 
 references:
   - type: related-trove
     id: promptfoo-agent-testing
     relation: "Complementary — covers single-agent testing (execution validation) while this trove covers multi-agent coordination (communication surface)"
   - type: internal
-    id: "docs/musings/cove-pr-as-agent-channel.md"
-    relation: "Earlier musing proposing PR-as-channel model (superseded by the three-tier model)"
-  - type: internal
-    id: "docs/musings/issue-pr-chronicle-layers.md"
-    relation: "This trove's motivating artifact — the three-tier communication layer model"
+    id: "docs/musings/issue-pr-chronicle-agent-communication.md"
+    relation: "The definitive musing this trove supports and challenges"
 
 history:
   - event: created
     date: 2026-06-03
     commit: "d54a5ca"
     sources: 5
+  - event: extended
+    date: 2026-06-03
+    commit: "--"
+    sources: 3
+    note: "Added counterevidence: CodeRabbit quality study, maintainer rejection policies, infrastructure scaling analysis"
