@@ -1,0 +1,77 @@
+trove-id: issue-pr-agent-channel
+created: 2026-06-03
+tags:
+  - issue-driven-development
+  - pr-as-channel
+  - agent-coordination
+  - forge-automation
+  - multi-agent-workflow
+  - commission-protocol
+  - gh-aw
+default-freshness-ttl:
+  web-page: 90d
+  blog-post: 180d
+  academic-paper: 365d
+  design-pattern: 180d
+sources:
+  - id: github-agentic-workflows-project-coordination
+    title: "Meet the Workflows: Project Coordination"
+    url: https://github.github.com/gh-aw/blog/2026-01-13-meet-the-workflows-campaigns/
+    author: "Don Syme, Peli de Halleux, Mara Kiefer"
+    type: blog-post
+    publisher: "GitHub Next / Microsoft Research"
+    fetched: 2026-06-03
+    freshness-ttl: 180d
+
+  - id: github-issue-ops
+    title: "GitHub Agentic Workflows — IssueOps"
+    url: https://github.github.com/gh-aw/patterns/issue-ops/
+    author: "Microsoft Research / GitHub Next"
+    type: design-pattern
+    publisher: "GitHub"
+    fetched: 2026-06-03
+    freshness-ttl: 180d
+
+  - id: github-research-plan-assign-ops
+    title: "GitHub Agentic Workflows — ResearchPlanAssignOps"
+    url: https://github.github.com/gh-aw/patterns/research-plan-assign-ops/
+    author: "Microsoft Research / GitHub Next"
+    type: design-pattern
+    publisher: "GitHub"
+    fetched: 2026-06-03
+    freshness-ttl: 180d
+
+  - id: github-issue-pr-management
+    title: "Meet the Workflows: Issue & PR Management"
+    url: https://github.github.com/gh-aw/blog/2026-01-13-meet-the-workflows-issue-management/
+    author: "Don Syme, Peli de Halleux, Mara Kiefer"
+    type: blog-post
+    publisher: "GitHub Next / Microsoft Research"
+    fetched: 2026-06-03
+    freshness-ttl: 180d
+
+  - id: addy-osmani-conductors-to-orchestrators
+    title: "Conductors to Orchestrators: The Future of Agentic Coding"
+    url: https://www.oreilly.com/radar/conductors-to-orchestrators-the-future-of-agentic-coding/
+    author: "Addy Osmani"
+    type: blog-post
+    publisher: "O'Reilly Radar"
+    fetched: 2026-06-03
+    freshness-ttl: 365d
+
+references:
+  - type: related-trove
+    id: promptfoo-agent-testing
+    relation: "Complementary — covers single-agent testing (execution validation) while this trove covers multi-agent coordination (communication surface)"
+  - type: internal
+    id: "docs/musings/cove-pr-as-agent-channel.md"
+    relation: "Earlier musing proposing PR-as-channel model (superseded by the three-tier model)"
+  - type: internal
+    id: "docs/musings/issue-pr-chronicle-layers.md"
+    relation: "This trove's motivating artifact — the three-tier communication layer model"
+
+history:
+  - event: created
+    date: 2026-06-03
+    commit: "--"
+    sources: 5
